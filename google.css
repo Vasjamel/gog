@@ -1,0 +1,121 @@
+body {
+    min-width: 520px;
+    font-family: KacstBook;
+    text-align: center;
+    color: #dedede;
+    background: url("https://cdn.wallpapersafari.com/61/47/Rf3GUi.jpg") no-repeat;
+    background-size: cover;
+}
+
+.google-wrapper {
+    font-size: 120px;
+    background-color: transparent;
+    margin-top: 10rem;
+}
+
+.google-wrapper--advanced {
+    margin: 2rem;
+    font-size: 2rem;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.g {
+    color: blue;
+}
+
+.o-1 {
+    color: red;
+}
+
+.o-2 {
+    color: yellow;
+}
+
+.l {
+    color: green;
+}
+
+.e {
+    color: red;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 1.5rem;
+    margin: 2rem;
+    border-radius: 16px;
+    outline: none;
+    padding: 4px;
+    font-family: "Bitstream Charter";
+    font-size: 1.2rem;
+}
+
+button,
+input[type="submit"] {
+    height: 2rem;
+    width: 9rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dedede;
+    border: 2px solid grey
+}
+
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 1rem;
+}
+
+li a {
+    color: grey;
+}
+
+.advanced-title {
+    text-align: left;
+    margin: 2rem;
+}
+
+.advanced-form {
+    display: flex;
+    align-content: flex-start;
+    justify-items: flex-start;
+    margin: 2rem;
+}
+
+.advanced-form__item {
+    height: 4rem;
+    margin: auto;
+    text-align: left;
+}
+
+.advanced-form__item input {
+    margin: 0;
+    border-radius: 0;
+}
+
+.advanced-form__btn {
+    margin: auto;
+    width: 4rem;
+    height: 2rem;
+    background-color: darkblue;
+    color: #dedede;
+}
